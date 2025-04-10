@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('library-bg.jpeg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.sidebar {
+    width: 200px;
+    background-color: rgba(240, 240, 240, 0.95);
+    padding: 10px;
+}
+
+.sidebar button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    background-color: #d1e7dd;
+    border-radius: 5px;
+}
+
+.form-container {
+    margin: auto;
+    background-color: rgba(184, 247, 193, 0.9);
+    padding: 20px;
+    width: 400px;
+    border-radius: 10px;
+}
+
+.main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.welcome {
+    font-size: 36px;
+    color: #000000;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+}
